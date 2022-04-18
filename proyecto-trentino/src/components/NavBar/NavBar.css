@@ -1,0 +1,25 @@
+.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.header a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    justify-content: center;
+}
