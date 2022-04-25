@@ -3,15 +3,15 @@ import './NavBar.css';
 import CartWidget from '../CartWidget/CartWidget.jsx';
 function NavBar(props) {
     return (
-        <div>
+        <div className='cabecera'>
             <h1>Todo a Medias</h1>
-            <ul className='cabecera'>
+            <div className='buttons'>
             
                 <a href='#'>Soquetes</a>
                 <a href='#'>Media caña</a>
                 <a href='#'>Precios</a>
                 
-            </ul>
+            </div>
             <CartWidget />
         </div>
     );
